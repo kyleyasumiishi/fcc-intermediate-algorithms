@@ -41,6 +41,7 @@ Here are a few <em>new concepts</em> I learned and practiced by implementing the
 
 - Functional Programming
 - Object Oriented Programming
+- Arguments object
 
 ## Technologies Used
 
