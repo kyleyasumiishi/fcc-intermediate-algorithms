@@ -48,6 +48,7 @@ Here are a few <em>new concepts</em> I learned and practiced by implementing the
 - Using parenthesized substring matches in regular expressions
 - ASCII Character Set and relevant String.prototype methods, including <code>fromCharCode()</code>, <code>charAt()</code> and <code>charCodeAt()</code>
 - <code>Array.prototype.includes()</code> method for determining whether an array includes a certain element
+- <code>String.prototype.replace()</code> method for matching both string and RegExp patterns in a string to replace
 
 ## Technologies Used
 
