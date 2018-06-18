@@ -44,6 +44,8 @@ Here are a few <em>new concepts</em> I learned and practiced by implementing the
 - Arguments object
 - Object constructor and several of its methods, including <code>Object.create()</code>, <code>Object.entries()</code>, <code>Object.keys()</code>, <code>Object.values()</code>, and <code>Object.getPrototypeOf()</code>.
 - Object.prototype property and several of its properties and methods, including <code>Object.prototype.hasOwnProperty()</code>, <code>Object.prototype.isPrototypeOf()</code>, and <code>Object.prototype.constructor</code>.
+- Regular expressions
+- Using parenthesized substring matches in regular expressions
 
 ## Technologies Used
 
