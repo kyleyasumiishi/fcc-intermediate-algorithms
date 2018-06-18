@@ -42,11 +42,12 @@ Here are a few <em>new concepts</em> I learned and practiced by implementing the
 - Functional Programming
 - Object Oriented Programming
 - Arguments object
-- Object constructor and several of its methods, including <code>Object.create()</code>, <code>Object.entries()</code>, <code>Object.keys()</code>, <code>Object.values()</code>, and <code>Object.getPrototypeOf()</code>.
-- Object.prototype property and several of its properties and methods, including <code>hasOwnProperty()</code>, <code>isPrototypeOf()</code>, and <code>Object.prototype.constructor</code>.
+- Object constructor and several of its methods, including <code>Object.create()</code>, <code>Object.entries()</code>, <code>Object.keys()</code>, <code>Object.values()</code>, and <code>Object.getPrototypeOf()</code>
+- Object.prototype property and several of its properties and methods, including <code>hasOwnProperty()</code>, <code>isPrototypeOf()</code>, and <code>Object.prototype.constructor</code>
 - Regular expressions
 - Using parenthesized substring matches in regular expressions
-- ASCII Character Set and relevant String.prototype methods, including <code>fromCharCode()</code>, <code>charAt()</code> and <code>charCodeAt()</code>.
+- ASCII Character Set and relevant String.prototype methods, including <code>fromCharCode()</code>, <code>charAt()</code> and <code>charCodeAt()</code>
+- <code>Array.prototype.includes()</code> method for determining whether an array includes a certain element
 
 ## Technologies Used
 
