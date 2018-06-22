@@ -51,6 +51,7 @@ Here are a few <em>new concepts</em> I learned and practiced by implementing the
 - <code>Array.prototype.includes()</code> method for determining whether an array includes a certain element
 - <code>String.prototype.replace()</code> method for matching both string and RegExp patterns in a string to replace
 - Global function <code>parseInt()</code> to convert a string argument into an integer of a specified radix
+- <code>Math.max()</code> and <code>Math.min()</code>
 
 
 ## Technologies Used
