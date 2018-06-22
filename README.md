@@ -41,6 +41,7 @@ Here are a few <em>new concepts</em> I learned and practiced by implementing the
 
 - Functional Programming
 - Object Oriented Programming
+- Recursive functions
 - Arguments object
 - Object constructor and several of its methods, including <code>Object.create()</code>, <code>Object.entries()</code>, <code>Object.keys()</code>, <code>Object.values()</code>, and <code>Object.getPrototypeOf()</code>
 - Object.prototype property and several of its properties and methods, including <code>hasOwnProperty()</code>, <code>isPrototypeOf()</code>, and <code>Object.prototype.constructor</code>
@@ -49,6 +50,8 @@ Here are a few <em>new concepts</em> I learned and practiced by implementing the
 - ASCII Character Set and relevant String.prototype methods, including <code>fromCharCode()</code>, <code>charAt()</code> and <code>charCodeAt()</code>
 - <code>Array.prototype.includes()</code> method for determining whether an array includes a certain element
 - <code>String.prototype.replace()</code> method for matching both string and RegExp patterns in a string to replace
+- Global function <code>parseInt()</code> to convert a string argument into an integer of a specified radix
+
 
 ## Technologies Used
 
