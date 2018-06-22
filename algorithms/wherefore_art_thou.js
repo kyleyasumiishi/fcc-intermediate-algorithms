@@ -5,9 +5,7 @@
  * @return {Array} arr - Array of objects from collection that contains each name/value pair from source.
  */
 function whatIsInAName(collection, source) {
-    // What's in a name?
     var arr = [];
-    // Only change code below this line
     for (let i = 0; i < collection.length; i++) {
         let object = collection[i];
         let isMatch = true;
@@ -20,6 +18,5 @@ function whatIsInAName(collection, source) {
             arr.push(object);
         }
     }
-    // Only change code above this line
     return arr;
 }
