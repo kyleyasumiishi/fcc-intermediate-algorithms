@@ -1,64 +1,21 @@
 /*
- * Returns true if the provided number is a prime number, and false otherwise.
- * @param {Number} num
+ * Returns the smallest common multiple of the provided paramaters that can be evenly divided by both, as well as by all sequential numbers in the range between these parameters.
+ * @param {Array} arr - Array of two numbers (not necessarily in order)
  */
-function isPrime(num) {
-    for (let i = 2; i < num; i++) {
-        if (num % i === 0) {
-            return false;
-        }
-    }
-    return true;
-}
-
-const primeFrequency = {};
-
-
 function smallestCommons(arr) {
-    const min = arr[0] > arr[1] ? arr[1] : arr[0];
-    const max = arr[0] > arr[1] ? arr[0] : arr[1];
-    let upperMultiple = min * max;
-    // for (let i = max - 1; i > min; i--) {
-    //     if (upperMultiple % i !== 0) {
-    //         upperMultiple *= i;
-    //     }
-    // }
-
-
-
-    for (let i = min + 1; i < max; i++) {
-        if (upperMultiple % i !== 0) {
-            upperMultiple *= i;
-        }
+    const revRange = [];
+    for (let i = Math.max(...arr); i >= Math.min(...arr); i--) {
+        revRange.push(i);
     }
-    return upperMultiple;
+    let scm = revRange[0];
+    revRange.slice().forEach(num => {
+        if (scm % num !== 0) {
+            let mult = 2;
+            while ((num * mult) % scm !== 0) {
+                mult++;
+            }
+            scm = (num * mult);
+        }
+    });
+    return scm;
 }
-
-console.log(smallestCommons([2, 10]));
-
-/*
-Input: Array with two numbers
-Output: Product - smallest common multiple
-
-brute force method would be to find greatest common multiple and then take out one divisor and see if all the other integers divide into it without a remainder.
-
-ans 
-multiple both elements of array together
-iterate through each element between. for each
-    is evenly divisble
-        yes - pass
-        no - multiply ans
-
-
-for every number in range min - max
-    find all prime number multiples - how?
-        for each prime number
-            is number of times multiplied greater than max for that prime number
-                yes - update
-
-
-for every number up to largest multiple check if prime.
-    if yes add to object as key with value of 0
-
-
-*/
