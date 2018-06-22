@@ -1,6 +1,6 @@
 # Intermediate Algorithm Scripting
 
-This repository contains my solutions to the Intermediate Algorithm Scripting challenges in freeCodeCamp's JavaScript Algorithms and Data Structures curriculum (as of 6/18/2018).
+This repository contains my solutions to the Intermediate Algorithm Scripting challenges in freeCodeCamp's JavaScript Algorithms and Data Structures curriculum (as of 6/22/2018).
 
 <b>Intermediate Algorithm Scripting Challenges</b>
 - Sum All Numbers in a Range
